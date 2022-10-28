@@ -1,0 +1,2 @@
+# exercicios
+ curso em video

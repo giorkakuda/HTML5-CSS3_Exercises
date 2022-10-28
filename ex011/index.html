@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midea em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir este site em varios arquivos diferentes ou aumente e dimminua o seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/foto-p.png">
+        <source media="(max-width: 1050px)" srcset="Imagem/foto-m.png">
+        <img src="imagem/foto-g.png" alt="" srcset="">
+    </picture>
+    <h1>Reproduzindo audios</h1>
+    <p>Reproduzindo audio de forma simples...</p>
+   
+    <audio preload="metadata" autoplay controls 
+    source src="audio/021.mp3" type="">
+        
+    </audio>
+   
+</body>
+</html>
