@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+</head>
+<body>
+    <h1>Meu site </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum vero praesentium reprehenderit, quis quaerat ex, illum nobis labore maiores modi totam voluptate adipisci sed quam minima officia enim ipsam impedit.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore fugit id maxime, harum sapiente reiciendis eligendi facere illum, ea nemo tenetur, iste magni voluptate ipsa. Unde ipsa voluptas facere beatae!Loremlo
+    </p>
+    <iframe src="index.html" sandbox="allow-forms allow-same-origin allow-scripts" referrerpolicy="no-referrer"></iframe>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora ipsam aliquam earum exercitationem est quis dignissimos vitae temporibus at facilis? Ad quam nam recusandae sed itaque, magnam eius explicabo vel?
+        >>>>>sandbox="sandbox"... bloqueia o acesso que todo site que esta dentro do iframe tenta fazer tenta fazer
+        >>>>>referrerpolicy="no-referrer" == conteudo dentro do iframe nao vai coletar nenhum tipo de informacao do usuario
+        >>>>>> os 2 juntos liga o maximo de seguranca dentro do iframe
+        tambem é possivel configurar a seguranca digitando o "allow..." ex: sandbox="allow-forms"
+    </p>
+</body>
+</html>
