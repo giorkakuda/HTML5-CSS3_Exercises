@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form criando estados</title>
+</head>
+<body>
+    <h1>Botao para selecionar estados</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <p><label for="iest">Estado</label>
+        <select name="estado" id="iest">
+
+            <option value="" selected>Escolha</option>
+            <optgroup label="Sudeste">
+                <option value="SP"> Sao paulo</option>
+                <option value="RJ">Rio de janeiro</option>
+                <option value="MG">Minas gerais</option>
+            </optgroup>
+
+            <optgroup label="Nordeste">
+                <option value="RN">Rio grande do norte</option>
+                <option value="PE">Pernambuco</option>
+                <option value="MA">Maranhao</option>
+            </optgroup>
+        </select></p>
+
+            <p><label for="iprof">Profissao</label>
+                <input type="text" name="Prof" id="iprof" list="lst">
+            <datalist id="lst">
+                <option value="Dev">Desenvolvedor</option>
+                <option value="Adm">Administrador</option>
+                <option value="PGM">Programador</option>
+            </datalist>           
+            </p>
+
+    <p><label for="imsg">Mensagem</label><br>
+    <textarea name="msg" id="imsg" cols="30" rows="10"></textarea></p>    
+    <p><label for="foto">Foto</label>
+    <input type="file" name="foto" id="foto">
+    </p>
+    <p>
+
+        <input type="reset" value="limpar">
+        <input type="submit" value="enviar">
+    </p>
+    </form>
+</body>
+</html>
